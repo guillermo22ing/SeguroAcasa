@@ -24,7 +24,7 @@ const LoginScreen = ({ navigation }) => {
       <Text>No tienes cuenta? Registrarse</Text>
 
       {/* Botón que navega a la pantalla de Home */}
-      <Button title="Iniciar sesión" onPress={() => navigation.navigate('Home')} />
+      <Button title="Login" onPress={() => navigation.navigate('Home')} />
     </View>
   );
 };
