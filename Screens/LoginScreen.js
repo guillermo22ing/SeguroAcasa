@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
 import styles from '../Styles/styles'; 
 
-const LoginScreen = ({ navigation }) => {
+const Login = ({ navigation }) => {
   return (
     <View style={styles.container}>
 
@@ -26,7 +26,7 @@ const LoginScreen = ({ navigation }) => {
       />
 
       <Text>No tienes cuenta?{' '}
-        <TouchableOpacity onPress={() => navigation.navigate('RegisterScreen')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Register')}>
           <Text style={styles.linkText}> Registrarse </Text>
 
         </TouchableOpacity>
@@ -35,7 +35,7 @@ const LoginScreen = ({ navigation }) => {
       {/* Botón que navega a la pantalla de Home */}
       <TouchableOpacity
       style={styles.button}
-      onPress={() => navigation.navigate('Home')}>
+      onPress={() => navigation.navigate('Main')}>
       <Text style={styles.buttonText}>Login</Text>
     </TouchableOpacity>
 
@@ -43,4 +43,4 @@ const LoginScreen = ({ navigation }) => {
   );
 };
 
-export default LoginScreen;
+export default Login;

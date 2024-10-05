@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import RegisterStyle from '../Styles/registerStyles';
 
-const RegisterScreen = () => {
+const Register = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -68,7 +68,7 @@ const RegisterScreen = () => {
     );
 };
 
-export default RegisterScreen;
+export default Register;
 
 
 

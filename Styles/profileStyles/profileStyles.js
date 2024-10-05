@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const homeStyles = StyleSheet.create({
+const profileStyles = StyleSheet.create({
 
     container: {
         flex: 1,
@@ -19,4 +19,4 @@ const homeStyles = StyleSheet.create({
 
 })
 
-export default homeStyles;
+export default profileStyles;
